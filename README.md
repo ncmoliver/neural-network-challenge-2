@@ -15,7 +15,7 @@ Given the potential class imbalance in the attrition data, accuracy alone may no
 
 ## Data Preprocessing
 
-- **Scaling and Encoding**: Applied `StandardScaler()` scaling and one-hot encoding to the dataset to ensure consistent input ranges and categorical handling.
+- **Scaling and Encoding**: Applied `StandardScaler()` scaling and `OneHotEncoder()` encoding to the dataset to ensure consistent input ranges and categorical handling.
 - **Train-Test Splits**: Split the data into training and test sets, scaling and encoding them separately to prevent data leakage.
 
 ## Model Architecture
@@ -41,8 +41,6 @@ Currently, accuracy is the main metric used, though this may not fully capture m
 - scikit-learn
 - pandas
 
-Install required packages via:
+# References
 
-```bash
-pip install -r requirements.txt
-```
+[Xpert Learning Assistant](https://bootcampspot.instructure.com/courses/6028/external_tools/313)
